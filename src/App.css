@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+.wrapper {
+	border: 1px solid #e7f1e9;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin: 30px;
+	margin-bottom: 10px;
+	overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top-bar {
+	height: 50px;
+	width: 100%;
+	border-bottom: 1px solid #e7f1e9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.editor-container {
+	padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input {
+	background-color: transparent;
+	border: none;
+	height: 50px;
+	width: 100vw;
+	font-size: 35px;
+	font-weight: 900;
+	color: #343e37;
+	margin-bottom: 20px;
+	margin-left: -2px;
 }
 
-.App-link {
-  color: #61dafb;
+::placeholder {
+	color: #343e37;
+	opacity: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:-ms-input-placeholder {
+	color: #343e37;
+}
+
+::-ms-input-placeholder {
+	color: #343e37;
+}
+
+button.ck.ck-button.ck-off.ck-splitbutton__arrow {
+	display: none;
+}
+
+.editor-wrapper {
+	min-height: 70vh;
+}
+
+.ck-toolbar,
+.ck.ck-content.ck-editor__editable {
+	padding-left: 0;
+}
+
+.hide .ck-toolbar {
+	display: none !important;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.ck.ck-content.ck-editor__editable {
+	min-height: 10vh;
+	max-height: 75vh;
+}
+.ck .ck-placeholder {
+	color: #cccfcd;
+	font-size: 22px;
+}
+
+.count-div {
+	background: white;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	padding-right: 20px;
+	font-size: 15px;
+	color: #343e37;
+	position: relative;
+	bottom: -15px;
+}
+
+.post-button {
+	background: #0a7227;
+	border-radius: 4px;
+	width: 62px;
+	color: #fff;
+	height: 35px;
+	border: none;
+	display: block;
+	margin: 10px 30px 30px auto;
+}
+
+.embed-button {
+	background: #e7f1e9 0% 0% no-repeat padding-box;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	border: none;
+	font-size: 22px;
+	margin-left: 20px;
+	cursor: pointer;
+	padding-top: 3px;
+}
+
+.hide .embed-button {
+	display: none;
+}
+
+.ck-file-dialog-button button {
+	pointer-events: none;
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.fade-in {
+	width: 265px !important;
+	opacity: 1 !important;
+	height: 181px !important;
 }

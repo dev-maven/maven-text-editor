@@ -1,0 +1,47 @@
+.card {
+	margin: 5px 20px;
+	width: 0px;
+	opacity: 0;
+	height: 0px;
+	transition: all 0.75s ease-in-out;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.header {
+	letter-spacing: 0.13px;
+	color: #333333;
+	text-transform: uppercase;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.header p {
+	margin: 0;
+}
+
+.item {
+	display: flex;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+.item:hover {
+	background: #f7fcf8;
+}
+
+.icon {
+	margin-right: 10px;
+}
+
+.caption .title {
+	font-weight: 600;
+	margin: 0;
+	font-size: 15px;
+}
+
+.caption .subtitle {
+	margin: 0;
+	font-size: 8px;
+}

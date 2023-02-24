@@ -1,0 +1,21 @@
+.wrapper {
+	margin: 20px 0;
+}
+
+.embed_button {
+	background: #0a7227;
+	border-radius: 4px;
+	width: 78px;
+	height: 35px;
+	border: none;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.cancel_button {
+	border: 1px solid #cee3d4;
+	border-radius: 4px;
+	width: 76px;
+	height: 35px;
+	background: transparent;
+}

@@ -1,0 +1,43 @@
+.img {
+	max-width: 100%;
+	max-height: 45vh;
+	display: block;
+	margin: auto;
+}
+
+.title {
+	color: #343e37;
+	font-weight: 600;
+	margin: 0;
+}
+
+.subtitle {
+	font-size: 14px;
+	letter-spacing: 0.13px;
+	color: #333333;
+	text-transform: uppercase;
+	margin: 15px 0 5px;
+}
+
+.upload_wrapper {
+	border: 1px dashed #0a7227;
+	border-radius: 4px;
+	height: 141px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fafafa;
+	cursor: pointer;
+}
+
+.upload_wrapper:hover {
+	border: 2px dashed #e2400f;
+}
+
+.upload_button {
+	border: 1px solid #6caa7d;
+	border-radius: 4px;
+	background: #ffffff;
+	padding: 5px 10px;
+	font-size: 12px;
+}
