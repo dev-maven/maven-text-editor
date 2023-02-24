@@ -1,0 +1,19 @@
+.form-control {
+	margin: 15px 0;
+}
+.form-control label {
+	text-transform: uppercase;
+	color: #333333;
+	letter-spacing: 0.13px;
+	font-size: 12px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.form-control input {
+	border: 1px solid #9dc7a9;
+	border-radius: 4px;
+	background: #fafafa;
+	width: 100%;
+	padding: 6px;
+}

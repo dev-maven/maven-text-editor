@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import Footer from '../Footer/Footer';

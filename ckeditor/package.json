@@ -18,6 +18,7 @@
     "@ckeditor/ckeditor5-indent": "^36.0.1",
     "@ckeditor/ckeditor5-link": "^36.0.1",
     "@ckeditor/ckeditor5-list": "^36.0.1",
+    "@ckeditor/ckeditor5-media-embed": "^36.0.1",
     "@ckeditor/ckeditor5-paragraph": "^36.0.1",
     "@ckeditor/ckeditor5-theme-lark": "^36.0.1",
     "@ckeditor/ckeditor5-word-count": "^36.0.1",

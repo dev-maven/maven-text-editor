@@ -1,0 +1,129 @@
+.wrapper {
+	border: 1px solid #e7f1e9;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin: 30px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.top-bar {
+	height: 50px;
+	width: 100%;
+	border-bottom: 1px solid #e7f1e9;
+}
+
+.editor-container {
+	padding: 20px;
+}
+
+.title-box {
+	background-color: transparent;
+	border: none;
+	height: 50px;
+	width: 100vw;
+	font-size: 28px;
+	font-weight: 700;
+	color: #343e37;
+	margin-left: -2px;
+}
+
+::placeholder {
+	color: #343e37;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #343e37;
+}
+
+::-ms-input-placeholder {
+	color: #343e37;
+}
+
+button.ck.ck-button.ck-off.ck-splitbutton__arrow {
+	display: none;
+}
+
+.editor-wrapper {
+	min-height: 70vh;
+}
+
+.ck-toolbar,
+.ck.ck-content.ck-editor__editable {
+	padding: 0;
+}
+
+.ck-toolbar {
+	margin-top: 15px !important;
+}
+
+.hide .ck-toolbar {
+	display: none !important;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.ck.ck-content.ck-editor__editable {
+	min-height: 10vh;
+	max-height: 75vh;
+}
+.ck .ck-placeholder {
+	color: #cccfcd;
+	font-size: 22px;
+	margin: 10px 0 !important;
+}
+
+.count-div {
+	background: white;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 20px;
+	font-size: 15px;
+	color: #343e37;
+	position: relative;
+	bottom: -15px;
+}
+
+.post-button {
+	background: #0a7227;
+	border-radius: 4px;
+	width: 62px;
+	color: #fff;
+	height: 35px;
+	border: none;
+	display: block;
+	margin: 10px 30px 30px auto;
+}
+
+.embed-button {
+	background: #e7f1e9 0% 0% no-repeat padding-box;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	border: none;
+	font-size: 22px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.hide .embed-button {
+	display: none;
+}
+
+.ck-file-dialog-button button {
+	pointer-events: none;
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.fade-in {
+	width: 265px !important;
+	opacity: 1 !important;
+	height: 181px !important;
+}

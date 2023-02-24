@@ -10,11 +10,12 @@ import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import Image from '@ckeditor/ckeditor5-image/src/image.js';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload.js';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent.js';
+import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock.js';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
+import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
-import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 
 class Editor extends DecoupledDocumentEditor {}
@@ -28,11 +29,12 @@ Editor.builtinPlugins = [
 	Image,
 	ImageUpload,
 	Indent,
+	IndentBlock,
 	Italic,
 	Link,
 	List,
+	MediaEmbed,
 	Paragraph,
-	Underline,
 	WordCount
 ];
 
@@ -50,9 +52,12 @@ Editor.defaultConfig = {
 			'bold',
 			'italic',
 			'|',
-			'numberedList',
 			'bulletedList',
+			'numberedList',
+			'outdent',
 			'indent',
+			'|',
+			'mediaEmbed',
 			'|'
 		]
 	},

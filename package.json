@@ -13,13 +13,16 @@
 		"react-dom": "^18.2.0",
 		"react-dropzone": "^14.2.3",
 		"react-scripts": "5.0.1",
+		"react-select": "^5.7.0",
+		"text-editor": "file:",
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"start": "react-scripts start --no-warnings",
+		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"add-cdk": "npm add file: ./ckeditor"
 	},
 	"eslintConfig": {
 		"extends": [
