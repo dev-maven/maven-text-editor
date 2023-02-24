@@ -102,14 +102,18 @@ button.ck.ck-button.ck-off.ck-splitbutton__arrow {
 }
 
 .embed-button {
-	background: #e7f1e9 0% 0% no-repeat padding-box;
+	background: #e7f1e9;
 	border-radius: 50%;
-	width: 35px;
-	height: 35px;
+	width: 35px !important;
+	height: 35px !important;
 	border: none;
 	font-size: 22px;
 	margin-left: 20px;
 	cursor: pointer;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .hide .embed-button {
